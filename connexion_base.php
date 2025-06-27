@@ -14,7 +14,7 @@ $ID_etat = $_POST['ID_etat'];
 $date = $_POST['date'];
 $heure = $_POST['heure'];
 $Horodatage = $date . ' ' . $heure;
-
+// Validation des données
 // Champs non présents dans le formulaire : à adapter selon tes besoins
 $ID_point = null;
 $Cap_Reel = null;
